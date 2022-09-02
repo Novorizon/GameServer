@@ -5,7 +5,7 @@ using System.Net.Sockets;
 using PureMVC.Patterns.Proxy;
 using Game.Protobuffer;
 
-namespace Game
+namespace Server
 {
     public class NetProxy : Proxy
     {

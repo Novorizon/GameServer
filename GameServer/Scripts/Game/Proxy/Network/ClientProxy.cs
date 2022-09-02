@@ -3,7 +3,7 @@ using PureMVC.Patterns.Proxy;
 using System.Collections.Generic;
 using System.Net.Sockets;
 
-namespace Game
+namespace Server
 {
     public class ClientProxy : Proxy
     {

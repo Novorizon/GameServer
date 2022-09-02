@@ -1,12 +1,9 @@
 using Game.Protobuffer;
 using Google.Protobuf;
-using Net;
-using PureMVC.Patterns.Proxy;
 using System;
 using System.Collections.Generic;
-using System.Net.Sockets;
 
-namespace Game
+namespace Net
 {
     public static class ProtoUtils
     {

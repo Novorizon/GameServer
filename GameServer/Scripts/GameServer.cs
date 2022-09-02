@@ -1,5 +1,5 @@
 ﻿using System;
-using TCPServer;
+using Server;
 
 namespace GameServer
 {
@@ -7,7 +7,7 @@ namespace GameServer
     {
         static void Main(string[] args)
         {
-            TCPServer.TCPServer server = new TCPServer.TCPServer();
+            TCPServer server = new TCPServer();
             server.Start();
 
             while(true)

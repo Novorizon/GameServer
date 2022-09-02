@@ -5,7 +5,7 @@ using Net;
 using System.IO;
 using System.Net.Sockets;
 
-namespace Game
+namespace Server
 {
     public enum MSG_FREQUENCY_TYPE
     {
@@ -22,7 +22,6 @@ namespace Game
         private MSG_FREQUENCY_TYPE m_frequency = MSG_FREQUENCY_TYPE.IMMEDIATE;
         private static int CONTROL_TIME = 30 * 1000; // millisecond
 
-        NetProxy netProxy = null;
         HandlerProxy handlerProxy = null;
 
         public MessageProxy() : base(NAME) { }
@@ -30,7 +29,6 @@ namespace Game
         public override void OnRegister()
         {
             base.OnRegister();
-            netProxy = Facade.RetrieveProxy(NetProxy.NAME) as NetProxy;
             handlerProxy = Facade.RetrieveProxy(HandlerProxy.NAME) as HandlerProxy;
         }
 

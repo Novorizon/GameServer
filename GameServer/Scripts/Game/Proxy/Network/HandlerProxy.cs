@@ -3,8 +3,9 @@ using Google.Protobuf;
 using PureMVC.Patterns.Proxy;
 using Net;
 using System.Collections.Generic;
+using Server;
 
-namespace Game
+namespace Net
 {
 
     public delegate void Handler(TCPClientState state, object data);

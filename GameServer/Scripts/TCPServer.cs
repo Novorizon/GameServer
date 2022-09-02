@@ -2,9 +2,9 @@
 using PureMVC.Interfaces;
 using PureMVC.Patterns.Facade;
 using Game;
+using Net;
 
-
-namespace TCPServer
+namespace Server
 {
     public class TCPServer
     {
