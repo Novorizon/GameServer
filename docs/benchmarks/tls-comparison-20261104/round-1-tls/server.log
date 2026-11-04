@@ -1,0 +1,44 @@
+info: GameServer.Networking.Tcp.TcpServer[0]
+      TCP listening on 127.0.0.1:22702; Encryption=None
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=293326848 Heap=16908480 Committed=33636352 GCIndex=4 LastGCPauseMs=2.343 TotalGCPauseMs=90.324 Connections=3180 ReceiveInUse=2048 SendInUse=0 Retained=31744 Allocated=74838848 Sessions=3173 Players=3171 Unauthenticated=2 Queued=0 Running=2 PendingSend=0 Accepted=3181 Rejected=0 ManagedBytes=24151184 CpuSeconds=6.934
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=495075328 Heap=34847008 Committed=50413568 GCIndex=10 LastGCPauseMs=9.221 TotalGCPauseMs=164.419 Connections=6640 ReceiveInUse=0 SendInUse=0 Retained=33792 Allocated=153094880 Sessions=6621 Players=6620 Unauthenticated=1 Queued=0 Running=0 PendingSend=0 Accepted=6641 Rejected=0 ManagedBytes=38536480 CpuSeconds=11.682
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=607072256 Heap=65685384 Committed=88227840 GCIndex=49 LastGCPauseMs=16.098 TotalGCPauseMs=975.303 Connections=8000 ReceiveInUse=2048 SendInUse=0 Retained=112128 Allocated=752209416 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=53967040 CpuSeconds=19.666
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=610660352 Heap=69027168 Committed=88227840 GCIndex=51 LastGCPauseMs=23.492 TotalGCPauseMs=1018.257 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112128 Allocated=793427848 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=65370672 CpuSeconds=20.173
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=610648064 Heap=69027168 Committed=88227840 GCIndex=51 LastGCPauseMs=0.000 TotalGCPauseMs=1018.257 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112128 Allocated=793468848 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=65411792 CpuSeconds=20.200
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=610586624 Heap=69027168 Committed=88227840 GCIndex=51 LastGCPauseMs=0.000 TotalGCPauseMs=1018.257 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112128 Allocated=793509552 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=65460752 CpuSeconds=20.209
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=636530688 Heap=95843144 Committed=113328128 GCIndex=67 LastGCPauseMs=27.817 TotalGCPauseMs=1463.377 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112128 Allocated=1058973248 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=98390616 CpuSeconds=22.898
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=628973568 Heap=83173400 Committed=106385408 GCIndex=85 LastGCPauseMs=40.626 TotalGCPauseMs=1935.309 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112128 Allocated=1321210704 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=65130440 CpuSeconds=25.790
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=623112192 Heap=83770432 Committed=102113280 GCIndex=103 LastGCPauseMs=23.802 TotalGCPauseMs=2359.206 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112128 Allocated=1591442800 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=66181832 CpuSeconds=28.615
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=620924928 Heap=83617480 Committed=101408768 GCIndex=120 LastGCPauseMs=32.707 TotalGCPauseMs=2801.057 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112128 Allocated=1855633936 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=73897320 CpuSeconds=31.338
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=618647552 Heap=73556312 Committed=99524608 GCIndex=179 LastGCPauseMs=30.094 TotalGCPauseMs=4284.030 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112128 Allocated=2744574000 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=50442176 CpuSeconds=41.883
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=618139648 Heap=78766720 Committed=98918400 GCIndex=239 LastGCPauseMs=24.372 TotalGCPauseMs=5851.573 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112640 Allocated=3681057712 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=55671376 CpuSeconds=52.923
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=613945344 Heap=75951408 Committed=94724096 GCIndex=299 LastGCPauseMs=25.917 TotalGCPauseMs=7422.824 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=112640 Allocated=4613642744 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=54955992 CpuSeconds=63.735
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=618172416 Heap=73976576 Committed=98914304 GCIndex=358 LastGCPauseMs=28.220 TotalGCPauseMs=9007.333 Connections=8000 ReceiveInUse=2048 SendInUse=256 Retained=110336 Allocated=5519499080 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=2 PendingSend=56 Accepted=8001 Rejected=0 ManagedBytes=44700184 CpuSeconds=74.488
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=619286528 Heap=78721400 Committed=99979264 GCIndex=420 LastGCPauseMs=23.775 TotalGCPauseMs=10634.327 Connections=8000 ReceiveInUse=4096 SendInUse=0 Retained=108544 Allocated=6486502280 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=1 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=61555712 CpuSeconds=84.858
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=618745856 Heap=78192648 Committed=99409920 GCIndex=484 LastGCPauseMs=24.960 TotalGCPauseMs=12332.011 Connections=8000 ReceiveInUse=251904 SendInUse=0 Retained=49152 Allocated=7467308456 Sessions=8000 Players=8000 Unauthenticated=0 Queued=124 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=62464240 CpuSeconds=95.202
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=617623552 Heap=79871192 Committed=98250752 GCIndex=546 LastGCPauseMs=27.584 TotalGCPauseMs=13921.957 Connections=8000 ReceiveInUse=116736 SendInUse=0 Retained=49152 Allocated=8416414928 Sessions=8000 Players=8000 Unauthenticated=0 Queued=57 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=59244960 CpuSeconds=105.326
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=616910848 Heap=73594576 Committed=97562624 GCIndex=613 LastGCPauseMs=20.178 TotalGCPauseMs=15583.410 Connections=8000 ReceiveInUse=4096 SendInUse=0 Retained=110592 Allocated=9445055552 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=1 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=59402824 CpuSeconds=115.873
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=616902656 Heap=74490208 Committed=97558528 GCIndex=617 LastGCPauseMs=21.442 TotalGCPauseMs=15687.149 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=114688 Allocated=9500840984 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=55023776 CpuSeconds=116.427
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=616882176 Heap=74490208 Committed=97558528 GCIndex=617 LastGCPauseMs=0.000 TotalGCPauseMs=15687.149 Connections=8000 ReceiveInUse=0 SendInUse=0 Retained=114688 Allocated=9500873784 Sessions=8000 Players=8000 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=55056672 CpuSeconds=116.431
+info: GameServer.Host.Hosting.ResourceTelemetryService[0]
+      Resources RSS=617242624 Heap=74490208 Committed=97558528 GCIndex=617 LastGCPauseMs=0.000 TotalGCPauseMs=15687.149 Connections=0 ReceiveInUse=0 SendInUse=0 Retained=114688 Allocated=9501209048 Sessions=0 Players=0 Unauthenticated=0 Queued=0 Running=0 PendingSend=0 Accepted=8001 Rejected=0 ManagedBytes=55392104 CpuSeconds=116.962

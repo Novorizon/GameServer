@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  Restored /workspace/TcpGameServer/src/GameServer.Gameplay/GameServer.Gameplay.csproj (in 1.16 sec).
+  Restored /workspace/TcpGameServer/src/GameServer.Protocol/GameServer.Protocol.csproj (in 8 ms).
+  Restored /workspace/TcpGameServer/tests/GameServer.UnitTests/GameServer.UnitTests.csproj (in 78 ms).
+  Restored /workspace/TcpGameServer/tests/GameServer.LoadTests/GameServer.LoadTests.csproj (in 12 ms).
+  Restored /workspace/TcpGameServer/src/GameServer.Host/GameServer.Host.csproj (in 9 ms).
+  Restored /workspace/TcpGameServer/src/GameServer.Data/GameServer.Data.csproj (in 14 ms).
+  Restored /workspace/TcpGameServer/examples/GameServer.DatabaseExample/GameServer.DatabaseExample.csproj (in 4 ms).
+  Restored /workspace/TcpGameServer/tests/GameServer.IntegrationTests/GameServer.IntegrationTests.csproj (in 13 ms).
+  Restored /workspace/TcpGameServer/src/GameServer.Networking/GameServer.Networking.csproj (in 7 ms).
+  Restored /workspace/TcpGameServer/src/GameServer.Infrastructure/GameServer.Infrastructure.csproj (in 9 ms).

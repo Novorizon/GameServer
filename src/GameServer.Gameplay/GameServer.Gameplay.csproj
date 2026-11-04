@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><ItemGroup><ProjectReference Include="../GameServer.Networking/GameServer.Networking.csproj" /><ProjectReference Include="../GameServer.Protocol/GameServer.Protocol.csproj" /><PackageReference Include="Microsoft.Extensions.Hosting" /></ItemGroup></Project>

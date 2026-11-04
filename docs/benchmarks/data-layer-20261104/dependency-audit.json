@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "parameters": "--vulnerable --include-transitive",
+  "sources": [
+    "https://api.nuget.org/v3/index.json"
+  ],
+  "projects": [
+    {
+      "path": "/workspace/TcpGameServer/src/GameServer.Protocol/GameServer.Protocol.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/src/GameServer.Networking/GameServer.Networking.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/src/GameServer.Gameplay/GameServer.Gameplay.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/src/GameServer.Infrastructure/GameServer.Infrastructure.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/src/GameServer.Host/GameServer.Host.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/tests/GameServer.UnitTests/GameServer.UnitTests.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/tests/GameServer.IntegrationTests/GameServer.IntegrationTests.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/tests/GameServer.LoadTests/GameServer.LoadTests.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/src/GameServer.Data/GameServer.Data.csproj"
+    },
+    {
+      "path": "/workspace/TcpGameServer/examples/GameServer.DatabaseExample/GameServer.DatabaseExample.csproj"
+    }
+  ]
+}

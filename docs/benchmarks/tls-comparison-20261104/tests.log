@@ -1,0 +1,8 @@
+Test run for /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/tests/GameServer.UnitTests/bin/Release/net10.0/GameServer.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    41, Skipped:     0, Total:    41, Duration: 174 ms - GameServer.UnitTests.dll (net10.0)
+Test run for /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/tests/GameServer.IntegrationTests/bin/Release/net10.0/GameServer.IntegrationTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    27, Skipped:     0, Total:    27, Duration: 7 s - GameServer.IntegrationTests.dll (net10.0)

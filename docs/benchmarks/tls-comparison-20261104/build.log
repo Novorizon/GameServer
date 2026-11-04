@@ -1,0 +1,14 @@
+  GameServer.Protocol -> /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Protocol/bin/Release/net10.0/GameServer.Protocol.dll
+  GameServer.Networking -> /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Networking/bin/Release/net10.0/GameServer.Networking.dll
+  GameServer.Gameplay -> /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Gameplay/bin/Release/net10.0/GameServer.Gameplay.dll
+  GameServer.Infrastructure -> /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Infrastructure/bin/Release/net10.0/GameServer.Infrastructure.dll
+  GameServer.Host -> /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Host/bin/Release/net10.0/GameServer.Host.dll
+  GameServer.UnitTests -> /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/tests/GameServer.UnitTests/bin/Release/net10.0/GameServer.UnitTests.dll
+  GameServer.LoadTests -> /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/tests/GameServer.LoadTests/bin/Release/net10.0/GameServer.LoadTests.dll
+  GameServer.IntegrationTests -> /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/tests/GameServer.IntegrationTests/bin/Release/net10.0/GameServer.IntegrationTests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:13.59

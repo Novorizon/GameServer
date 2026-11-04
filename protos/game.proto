@@ -1,0 +1,25 @@
+syntax = "proto3";
+package gameserver;
+option csharp_namespace = "GameServer.Protocol.Messages";
+enum MessageId {
+  MESSAGE_ID_NONE = 0;
+  MESSAGE_ID_HEARTBEAT = 1;
+  MESSAGE_ID_LOGIN = 1000;
+  MESSAGE_ID_PROGRESS_READ = 2000000001;
+  MESSAGE_ID_PROGRESS_WRITE = 2000000002;
+  MESSAGE_ID_SAVE_READ = 2000000003;
+  MESSAGE_ID_SAVE_WRITE = 2000000004;
+  MESSAGE_ID_FACEBOOK_BIND = 2000000005;
+  MESSAGE_ID_SERVER_NOTICE = 2100000001;
+}
+message LoginRequest { string device_id = 1; string access_token = 100; }
+message LoginResponse { string device_id = 1; int64 player_id = 100; }
+message ProgressReadRequest {}
+message ProgressWriteRequest { int32 progress = 1; int64 expected_version = 2; }
+message ProgressResponse { int32 progress = 1; int64 version = 2; }
+message SaveReadRequest {}
+message SaveWriteRequest { bytes data = 1; }
+message SaveResponse { bytes data = 1; }
+message FacebookBindRequest { string access_token = 1; string expected_user_id = 2; }
+message FacebookBindResponse { string user_id = 1; }
+message ServerNotice { string text = 1; }

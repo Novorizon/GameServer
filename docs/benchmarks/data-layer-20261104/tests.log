@@ -1,0 +1,8 @@
+Test run for /workspace/TcpGameServer/tests/GameServer.UnitTests/bin/Release/net10.0/GameServer.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    48, Skipped:     0, Total:    48, Duration: 163 ms - GameServer.UnitTests.dll (net10.0)
+Test run for /workspace/TcpGameServer/tests/GameServer.IntegrationTests/bin/Release/net10.0/GameServer.IntegrationTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    56, Skipped:     0, Total:    56, Duration: 9 s - GameServer.IntegrationTests.dll (net10.0)

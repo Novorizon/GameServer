@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><ItemGroup><ProjectReference Include="../GameServer.Gameplay/GameServer.Gameplay.csproj" /><ProjectReference Include="../GameServer.Data/GameServer.Data.csproj" /><PackageReference Include="Microsoft.Extensions.Http" /><PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" /></ItemGroup></Project>

@@ -1,0 +1,15 @@
+{"event":"phase_start","phase":"login"}
+{"event":"phase_end","phase":"login","connections":8000,"seconds":11.6620321}
+{"event":"phase_start","phase":"warmup_heartbeat"}
+{"event":"phase_end","phase":"warmup_heartbeat","requests":77093,"seconds":3.0099501,"requests_per_second":25612.71696829791,"p50_ms":4.05,"p95_ms":15.8,"p99_ms":25.45,"max_ms":34.5327,"payload_bytes":0,"histogram_bin_ms":0.05}
+{"event":"phase_start","phase":"warmup_echo"}
+{"event":"phase_end","phase":"warmup_echo","requests":74267,"seconds":3.0150617,"requests_per_second":24632.000068190977,"p50_ms":3.95,"p95_ms":16.75,"p99_ms":26.3,"max_ms":35.9983,"payload_bytes":1027,"histogram_bin_ms":0.05}
+{"event":"phase_start","phase":"idle"}
+{"event":"phase_end","phase":"idle","seconds":14.9994641,"connections":8000}
+{"event":"phase_start","phase":"heartbeat"}
+{"event":"phase_end","phase":"heartbeat","requests":722834,"seconds":20.0062788,"requests_per_second":36130.35723564944,"p50_ms":2.6,"p95_ms":13.6,"p99_ms":24.35,"max_ms":66.163,"payload_bytes":0,"histogram_bin_ms":0.05}
+{"event":"phase_start","phase":"protobuf_1k"}
+{"event":"phase_end","phase":"protobuf_1k","requests":642341,"seconds":20.0121374,"requests_per_second":32097.570947119322,"p50_ms":2.95,"p95_ms":16.9,"p99_ms":25.5,"max_ms":83.1871,"payload_bytes":1027,"histogram_bin_ms":0.05}
+{"event":"phase_start","phase":"idle_after_traffic"}
+{"event":"phase_end","phase":"idle_after_traffic","seconds":10.0002501,"connections":8000}
+{"event":"complete","connections":8000,"failures":0}

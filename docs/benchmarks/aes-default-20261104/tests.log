@@ -1,0 +1,16 @@
+  GameServer.Protocol -> /workspace/TcpGameServer/src/GameServer.Protocol/bin/Release/net10.0/GameServer.Protocol.dll
+  GameServer.Networking -> /workspace/TcpGameServer/src/GameServer.Networking/bin/Release/net10.0/GameServer.Networking.dll
+  GameServer.Gameplay -> /workspace/TcpGameServer/src/GameServer.Gameplay/bin/Release/net10.0/GameServer.Gameplay.dll
+  GameServer.Infrastructure -> /workspace/TcpGameServer/src/GameServer.Infrastructure/bin/Release/net10.0/GameServer.Infrastructure.dll
+  GameServer.Host -> /workspace/TcpGameServer/src/GameServer.Host/bin/Release/net10.0/GameServer.Host.dll
+  GameServer.UnitTests -> /workspace/TcpGameServer/tests/GameServer.UnitTests/bin/Release/net10.0/GameServer.UnitTests.dll
+Test run for /workspace/TcpGameServer/tests/GameServer.UnitTests/bin/Release/net10.0/GameServer.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    41, Skipped:     0, Total:    41, Duration: 176 ms - GameServer.UnitTests.dll (net10.0)
+  GameServer.LoadTests -> /workspace/TcpGameServer/tests/GameServer.LoadTests/bin/Release/net10.0/GameServer.LoadTests.dll
+  GameServer.IntegrationTests -> /workspace/TcpGameServer/tests/GameServer.IntegrationTests/bin/Release/net10.0/GameServer.IntegrationTests.dll
+Test run for /workspace/TcpGameServer/tests/GameServer.IntegrationTests/bin/Release/net10.0/GameServer.IntegrationTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    27, Skipped:     0, Total:    27, Duration: 7 s - GameServer.IntegrationTests.dll (net10.0)

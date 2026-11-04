@@ -1,0 +1,837 @@
+{
+  "repetitions_per_mode": 3,
+  "statistic": "median of separate run-level measurements, not pooled request percentile",
+  "count": 8000,
+  "all_dll_fingerprints_equal": true,
+  "modes": {
+    "plain": {
+      "login_seconds": {
+        "median": 11.7844579,
+        "min": 11.740344,
+        "max": 11.9287408,
+        "runs": [
+          11.7844579,
+          11.740344,
+          11.9287408
+        ]
+      },
+      "login_cpu_ms_per_connection": {
+        "median": 0.61,
+        "min": 0.5850000000000001,
+        "max": 0.6175,
+        "runs": [
+          0.5850000000000001,
+          0.61,
+          0.6175
+        ]
+      },
+      "login_p99_ms": {
+        "median": 31.9,
+        "min": 26.1,
+        "max": 40.35,
+        "runs": [
+          26.1,
+          31.9,
+          40.35
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 158.3125,
+        "min": 149.828125,
+        "max": 165.2890625,
+        "runs": [
+          158.3125,
+          165.2890625,
+          149.828125
+        ]
+      },
+      "idle_managed_estimate_mib": {
+        "median": 36.51336669921875,
+        "min": 32.10381317138672,
+        "max": 45.216773986816406,
+        "runs": [
+          45.216773986816406,
+          32.10381317138672,
+          36.51336669921875
+        ]
+      },
+      "idle_gc_committed_mib": {
+        "median": 72.890625,
+        "min": 61.84375,
+        "max": 73.11328125,
+        "runs": [
+          73.11328125,
+          72.890625,
+          61.84375
+        ]
+      },
+      "fixed_rps": {
+        "median": 9995.595340957054,
+        "min": 9949.65702388028,
+        "max": 9995.751255949903,
+        "runs": [
+          9995.595340957054,
+          9949.65702388028,
+          9995.751255949903
+        ]
+      },
+      "fixed_peak_rss_mib": {
+        "median": 166.9453125,
+        "min": 165.8671875,
+        "max": 168.71484375,
+        "runs": [
+          166.9453125,
+          168.71484375,
+          165.8671875
+        ]
+      },
+      "fixed_cpu_four_core_percent": {
+        "median": 9.78819063596261,
+        "min": 9.046300569208407,
+        "max": 10.033164865610942,
+        "runs": [
+          10.033164865610942,
+          9.78819063596261,
+          9.046300569208407
+        ]
+      },
+      "fixed_cpu_us_per_request": {
+        "median": 39.349999999999994,
+        "min": 36.19999999999999,
+        "max": 40.15,
+        "runs": [
+          40.15,
+          39.349999999999994,
+          36.19999999999999
+        ]
+      },
+      "fixed_p99_ms": {
+        "median": 20.75,
+        "min": 18.6,
+        "max": 22.5,
+        "runs": [
+          22.5,
+          20.75,
+          18.6
+        ]
+      },
+      "heartbeat_rps": {
+        "median": 35147.84838594806,
+        "min": 31367.759332186983,
+        "max": 37829.62318337177,
+        "runs": [
+          37829.62318337177,
+          31367.759332186983,
+          35147.84838594806
+        ]
+      },
+      "heartbeat_peak_rss_mib": {
+        "median": 165.85546875,
+        "min": 163.953125,
+        "max": 168.0078125,
+        "runs": [
+          168.0078125,
+          165.85546875,
+          163.953125
+        ]
+      },
+      "heartbeat_p99_ms": {
+        "median": 26.5,
+        "min": 23.4,
+        "max": 28.95,
+        "runs": [
+          26.5,
+          28.95,
+          23.4
+        ]
+      },
+      "echo_rps": {
+        "median": 36627.4291281954,
+        "min": 35567.84623430703,
+        "max": 37037.204406731034,
+        "runs": [
+          36627.4291281954,
+          35567.84623430703,
+          37037.204406731034
+        ]
+      },
+      "echo_peak_rss_mib": {
+        "median": 167.828125,
+        "min": 164.47265625,
+        "max": 172.2421875,
+        "runs": [
+          167.828125,
+          164.47265625,
+          172.2421875
+        ]
+      },
+      "echo_cpu_us_per_request": {
+        "median": 60.52008945743821,
+        "min": 58.30450181177963,
+        "max": 60.64430533810431,
+        "runs": [
+          58.30450181177963,
+          60.64430533810431,
+          60.52008945743821
+        ]
+      },
+      "echo_p99_ms": {
+        "median": 26,
+        "min": 24.8,
+        "max": 26.2,
+        "runs": [
+          26.2,
+          26,
+          24.8
+        ]
+      },
+      "idle_after_traffic_rss_mib": {
+        "median": 159.6328125,
+        "min": 154.71484375,
+        "max": 161.19921875,
+        "runs": [
+          154.71484375,
+          159.6328125,
+          161.19921875
+        ]
+      }
+    },
+    "aes-gcm": {
+      "login_seconds": {
+        "median": 11.7358865,
+        "min": 11.7274568,
+        "max": 11.7572134,
+        "runs": [
+          11.7572134,
+          11.7358865,
+          11.7274568
+        ]
+      },
+      "login_cpu_ms_per_connection": {
+        "median": 0.69875,
+        "min": 0.6575000000000001,
+        "max": 0.73375,
+        "runs": [
+          0.69875,
+          0.73375,
+          0.6575000000000001
+        ]
+      },
+      "login_p99_ms": {
+        "median": 52.3,
+        "min": 45.35,
+        "max": 75.45,
+        "runs": [
+          75.45,
+          52.3,
+          45.35
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 178.296875,
+        "min": 176.6953125,
+        "max": 183.23046875,
+        "runs": [
+          183.23046875,
+          176.6953125,
+          178.296875
+        ]
+      },
+      "idle_managed_estimate_mib": {
+        "median": 50.19361877441406,
+        "min": 38.638465881347656,
+        "max": 53.22809600830078,
+        "runs": [
+          50.19361877441406,
+          53.22809600830078,
+          38.638465881347656
+        ]
+      },
+      "idle_gc_committed_mib": {
+        "median": 73.36328125,
+        "min": 72.42578125,
+        "max": 77.390625,
+        "runs": [
+          77.390625,
+          72.42578125,
+          73.36328125
+        ]
+      },
+      "fixed_rps": {
+        "median": 9996.884570892327,
+        "min": 9996.529754678313,
+        "max": 9998.006697404739,
+        "runs": [
+          9996.884570892327,
+          9996.529754678313,
+          9998.006697404739
+        ]
+      },
+      "fixed_peak_rss_mib": {
+        "median": 188.390625,
+        "min": 185.11328125,
+        "max": 194.109375,
+        "runs": [
+          194.109375,
+          188.390625,
+          185.11328125
+        ]
+      },
+      "fixed_cpu_four_core_percent": {
+        "median": 11.833907942091514,
+        "min": 11.585267657369624,
+        "max": 13.094845899427357,
+        "runs": [
+          11.833907942091514,
+          13.094845899427357,
+          11.585267657369624
+        ]
+      },
+      "fixed_cpu_us_per_request": {
+        "median": 47.34999999999999,
+        "min": 46.35,
+        "max": 52.40000000000001,
+        "runs": [
+          47.34999999999999,
+          52.40000000000001,
+          46.35
+        ]
+      },
+      "fixed_p99_ms": {
+        "median": 22,
+        "min": 21.4,
+        "max": 25.3,
+        "runs": [
+          22,
+          25.3,
+          21.4
+        ]
+      },
+      "heartbeat_rps": {
+        "median": 29737.620119988846,
+        "min": 28632.469058257688,
+        "max": 31879.595018491844,
+        "runs": [
+          31879.595018491844,
+          29737.620119988846,
+          28632.469058257688
+        ]
+      },
+      "heartbeat_peak_rss_mib": {
+        "median": 190.140625,
+        "min": 189.03125,
+        "max": 190.49609375,
+        "runs": [
+          190.140625,
+          189.03125,
+          190.49609375
+        ]
+      },
+      "heartbeat_p99_ms": {
+        "median": 26.5,
+        "min": 26.25,
+        "max": 27.35,
+        "runs": [
+          26.25,
+          26.5,
+          27.35
+        ]
+      },
+      "echo_rps": {
+        "median": 28895.202850406666,
+        "min": 28440.25382575182,
+        "max": 30572.06776279732,
+        "runs": [
+          28440.25382575182,
+          28895.202850406666,
+          30572.06776279732
+        ]
+      },
+      "echo_peak_rss_mib": {
+        "median": 190.15625,
+        "min": 189.03515625,
+        "max": 191.0390625,
+        "runs": [
+          190.15625,
+          189.03515625,
+          191.0390625
+        ]
+      },
+      "echo_cpu_us_per_request": {
+        "median": 75.32692959343858,
+        "min": 71.68212639534065,
+        "max": 75.84757379146487,
+        "runs": [
+          75.84757379146487,
+          75.32692959343858,
+          71.68212639534065
+        ]
+      },
+      "echo_p99_ms": {
+        "median": 26.65,
+        "min": 25.65,
+        "max": 28.55,
+        "runs": [
+          28.55,
+          26.65,
+          25.65
+        ]
+      },
+      "idle_after_traffic_rss_mib": {
+        "median": 180.22265625,
+        "min": 174.79296875,
+        "max": 180.69140625,
+        "runs": [
+          174.79296875,
+          180.22265625,
+          180.69140625
+        ]
+      }
+    },
+    "tls": {
+      "login_seconds": {
+        "median": 11.8532993,
+        "min": 11.7488513,
+        "max": 11.9743703,
+        "runs": [
+          11.8532993,
+          11.7488513,
+          11.9743703
+        ]
+      },
+      "login_cpu_ms_per_connection": {
+        "median": 1.625,
+        "min": 1.61375,
+        "max": 1.845,
+        "runs": [
+          1.61375,
+          1.625,
+          1.845
+        ]
+      },
+      "login_p99_ms": {
+        "median": 91.05,
+        "min": 86.7,
+        "max": 94,
+        "runs": [
+          94,
+          86.7,
+          91.05
+        ]
+      },
+      "idle_rss_mib": {
+        "median": 582.34375,
+        "min": 582.25390625,
+        "max": 589.625,
+        "runs": [
+          582.34375,
+          582.25390625,
+          589.625
+        ]
+      },
+      "idle_managed_estimate_mib": {
+        "median": 62.42823791503906,
+        "min": 56.18486022949219,
+        "max": 65.47319793701172,
+        "runs": [
+          62.42823791503906,
+          65.47319793701172,
+          56.18486022949219
+        ]
+      },
+      "idle_gc_committed_mib": {
+        "median": 84.140625,
+        "min": 84.078125,
+        "max": 89.20703125,
+        "runs": [
+          84.140625,
+          84.078125,
+          89.20703125
+        ]
+      },
+      "fixed_rps": {
+        "median": 9995.9522391003,
+        "min": 9984.97156936609,
+        "max": 9997.091646098317,
+        "runs": [
+          9997.091646098317,
+          9984.97156936609,
+          9995.9522391003
+        ]
+      },
+      "fixed_peak_rss_mib": {
+        "median": 606.25390625,
+        "min": 603.31640625,
+        "max": 608.0390625,
+        "runs": [
+          606.25390625,
+          603.31640625,
+          608.0390625
+        ]
+      },
+      "fixed_cpu_four_core_percent": {
+        "median": 14.527674395890811,
+        "min": 14.133591439384455,
+        "max": 16.081226537439015,
+        "runs": [
+          14.133591439384455,
+          14.527674395890811,
+          16.081226537439015
+        ]
+      },
+      "fixed_cpu_us_per_request": {
+        "median": 58.20000000000002,
+        "min": 56.54999999999999,
+        "max": 64.35000000000001,
+        "runs": [
+          56.54999999999999,
+          58.20000000000002,
+          64.35000000000001
+        ]
+      },
+      "fixed_p99_ms": {
+        "median": 29.95,
+        "min": 29.9,
+        "max": 31.9,
+        "runs": [
+          29.95,
+          29.9,
+          31.9
+        ]
+      },
+      "heartbeat_rps": {
+        "median": 22158.72546821705,
+        "min": 21109.104603156295,
+        "max": 24809.044455814743,
+        "runs": [
+          24809.044455814743,
+          21109.104603156295,
+          22158.72546821705
+        ]
+      },
+      "heartbeat_peak_rss_mib": {
+        "median": 593.53515625,
+        "min": 590.48828125,
+        "max": 601.62109375,
+        "runs": [
+          593.53515625,
+          590.48828125,
+          601.62109375
+        ]
+      },
+      "heartbeat_p99_ms": {
+        "median": 35.9,
+        "min": 34.65,
+        "max": 36.35,
+        "runs": [
+          34.65,
+          36.35,
+          35.9
+        ]
+      },
+      "echo_rps": {
+        "median": 21670.187342887046,
+        "min": 20527.158171675947,
+        "max": 21822.419733385912,
+        "runs": [
+          21822.419733385912,
+          20527.158171675947,
+          21670.187342887046
+        ]
+      },
+      "echo_peak_rss_mib": {
+        "median": 590.62109375,
+        "min": 590.0703125,
+        "max": 597.94140625,
+        "runs": [
+          590.62109375,
+          590.0703125,
+          597.94140625
+        ]
+      },
+      "echo_cpu_us_per_request": {
+        "median": 95.06062940191597,
+        "min": 94.6562927888116,
+        "max": 104.21810874785008,
+        "runs": [
+          94.6562927888116,
+          104.21810874785008,
+          95.06062940191597
+        ]
+      },
+      "echo_p99_ms": {
+        "median": 37.15,
+        "min": 37,
+        "max": 38.15,
+        "runs": [
+          37.15,
+          38.15,
+          37
+        ]
+      },
+      "idle_after_traffic_rss_mib": {
+        "median": 590.1484375,
+        "min": 588.453125,
+        "max": 591.92578125,
+        "runs": [
+          588.453125,
+          590.1484375,
+          591.92578125
+        ]
+      }
+    }
+  },
+  "comparisons_aes_vs_tls": {
+    "idle_rss_mib": {
+      "aes_median": 178.296875,
+      "tls_median": 582.34375,
+      "aes_relative_difference_percent": -69.38288167426884,
+      "tls_divided_by_aes": 3.266146700552099
+    },
+    "fixed_peak_rss_mib": {
+      "aes_median": 188.390625,
+      "tls_median": 606.25390625,
+      "aes_relative_difference_percent": -68.9254579545235,
+      "tls_divided_by_aes": 3.2180683420419673
+    },
+    "fixed_cpu_us_per_request": {
+      "aes_median": 47.34999999999999,
+      "tls_median": 58.20000000000002,
+      "aes_relative_difference_percent": -18.64261168384884,
+      "tls_divided_by_aes": 1.2291446673706448
+    },
+    "echo_rps": {
+      "aes_median": 28895.202850406666,
+      "tls_median": 21670.187342887046,
+      "aes_relative_difference_percent": 33.340807779823535,
+      "tls_divided_by_aes": 0.7499579585952644
+    }
+  },
+  "runs": [
+    {
+      "name": "round-1-plain",
+      "transport": "plain",
+      "values": {
+        "login_seconds": 11.7844579,
+        "login_cpu_ms_per_connection": 0.5850000000000001,
+        "login_p99_ms": 26.1,
+        "idle_rss_mib": 158.3125,
+        "idle_managed_estimate_mib": 45.216773986816406,
+        "idle_gc_committed_mib": 73.11328125,
+        "fixed_rps": 9995.595340957054,
+        "fixed_peak_rss_mib": 166.9453125,
+        "fixed_cpu_four_core_percent": 10.033164865610942,
+        "fixed_cpu_us_per_request": 40.15,
+        "fixed_p99_ms": 22.5,
+        "heartbeat_rps": 37829.62318337177,
+        "heartbeat_peak_rss_mib": 168.0078125,
+        "heartbeat_p99_ms": 26.5,
+        "echo_rps": 36627.4291281954,
+        "echo_peak_rss_mib": 167.828125,
+        "echo_cpu_us_per_request": 58.30450181177963,
+        "echo_p99_ms": 26.2,
+        "idle_after_traffic_rss_mib": 154.71484375
+      }
+    },
+    {
+      "name": "round-2-plain",
+      "transport": "plain",
+      "values": {
+        "login_seconds": 11.740344,
+        "login_cpu_ms_per_connection": 0.61,
+        "login_p99_ms": 31.9,
+        "idle_rss_mib": 165.2890625,
+        "idle_managed_estimate_mib": 32.10381317138672,
+        "idle_gc_committed_mib": 72.890625,
+        "fixed_rps": 9949.65702388028,
+        "fixed_peak_rss_mib": 168.71484375,
+        "fixed_cpu_four_core_percent": 9.78819063596261,
+        "fixed_cpu_us_per_request": 39.349999999999994,
+        "fixed_p99_ms": 20.75,
+        "heartbeat_rps": 31367.759332186983,
+        "heartbeat_peak_rss_mib": 165.85546875,
+        "heartbeat_p99_ms": 28.95,
+        "echo_rps": 35567.84623430703,
+        "echo_peak_rss_mib": 164.47265625,
+        "echo_cpu_us_per_request": 60.64430533810431,
+        "echo_p99_ms": 26,
+        "idle_after_traffic_rss_mib": 159.6328125
+      }
+    },
+    {
+      "name": "round-3-plain",
+      "transport": "plain",
+      "values": {
+        "login_seconds": 11.9287408,
+        "login_cpu_ms_per_connection": 0.6175,
+        "login_p99_ms": 40.35,
+        "idle_rss_mib": 149.828125,
+        "idle_managed_estimate_mib": 36.51336669921875,
+        "idle_gc_committed_mib": 61.84375,
+        "fixed_rps": 9995.751255949903,
+        "fixed_peak_rss_mib": 165.8671875,
+        "fixed_cpu_four_core_percent": 9.046300569208407,
+        "fixed_cpu_us_per_request": 36.19999999999999,
+        "fixed_p99_ms": 18.6,
+        "heartbeat_rps": 35147.84838594806,
+        "heartbeat_peak_rss_mib": 163.953125,
+        "heartbeat_p99_ms": 23.4,
+        "echo_rps": 37037.204406731034,
+        "echo_peak_rss_mib": 172.2421875,
+        "echo_cpu_us_per_request": 60.52008945743821,
+        "echo_p99_ms": 24.8,
+        "idle_after_traffic_rss_mib": 161.19921875
+      }
+    },
+    {
+      "name": "round-1-aes-gcm",
+      "transport": "aes-gcm",
+      "values": {
+        "login_seconds": 11.7572134,
+        "login_cpu_ms_per_connection": 0.69875,
+        "login_p99_ms": 75.45,
+        "idle_rss_mib": 183.23046875,
+        "idle_managed_estimate_mib": 50.19361877441406,
+        "idle_gc_committed_mib": 77.390625,
+        "fixed_rps": 9996.884570892327,
+        "fixed_peak_rss_mib": 194.109375,
+        "fixed_cpu_four_core_percent": 11.833907942091514,
+        "fixed_cpu_us_per_request": 47.34999999999999,
+        "fixed_p99_ms": 22,
+        "heartbeat_rps": 31879.595018491844,
+        "heartbeat_peak_rss_mib": 190.140625,
+        "heartbeat_p99_ms": 26.25,
+        "echo_rps": 28440.25382575182,
+        "echo_peak_rss_mib": 190.15625,
+        "echo_cpu_us_per_request": 75.84757379146487,
+        "echo_p99_ms": 28.55,
+        "idle_after_traffic_rss_mib": 174.79296875
+      }
+    },
+    {
+      "name": "round-2-aes-gcm",
+      "transport": "aes-gcm",
+      "values": {
+        "login_seconds": 11.7358865,
+        "login_cpu_ms_per_connection": 0.73375,
+        "login_p99_ms": 52.3,
+        "idle_rss_mib": 176.6953125,
+        "idle_managed_estimate_mib": 53.22809600830078,
+        "idle_gc_committed_mib": 72.42578125,
+        "fixed_rps": 9996.529754678313,
+        "fixed_peak_rss_mib": 188.390625,
+        "fixed_cpu_four_core_percent": 13.094845899427357,
+        "fixed_cpu_us_per_request": 52.40000000000001,
+        "fixed_p99_ms": 25.3,
+        "heartbeat_rps": 29737.620119988846,
+        "heartbeat_peak_rss_mib": 189.03125,
+        "heartbeat_p99_ms": 26.5,
+        "echo_rps": 28895.202850406666,
+        "echo_peak_rss_mib": 189.03515625,
+        "echo_cpu_us_per_request": 75.32692959343858,
+        "echo_p99_ms": 26.65,
+        "idle_after_traffic_rss_mib": 180.22265625
+      }
+    },
+    {
+      "name": "round-3-aes-gcm",
+      "transport": "aes-gcm",
+      "values": {
+        "login_seconds": 11.7274568,
+        "login_cpu_ms_per_connection": 0.6575000000000001,
+        "login_p99_ms": 45.35,
+        "idle_rss_mib": 178.296875,
+        "idle_managed_estimate_mib": 38.638465881347656,
+        "idle_gc_committed_mib": 73.36328125,
+        "fixed_rps": 9998.006697404739,
+        "fixed_peak_rss_mib": 185.11328125,
+        "fixed_cpu_four_core_percent": 11.585267657369624,
+        "fixed_cpu_us_per_request": 46.35,
+        "fixed_p99_ms": 21.4,
+        "heartbeat_rps": 28632.469058257688,
+        "heartbeat_peak_rss_mib": 190.49609375,
+        "heartbeat_p99_ms": 27.35,
+        "echo_rps": 30572.06776279732,
+        "echo_peak_rss_mib": 191.0390625,
+        "echo_cpu_us_per_request": 71.68212639534065,
+        "echo_p99_ms": 25.65,
+        "idle_after_traffic_rss_mib": 180.69140625
+      }
+    },
+    {
+      "name": "round-1-tls",
+      "transport": "tls",
+      "values": {
+        "login_seconds": 11.8532993,
+        "login_cpu_ms_per_connection": 1.61375,
+        "login_p99_ms": 94,
+        "idle_rss_mib": 582.34375,
+        "idle_managed_estimate_mib": 62.42823791503906,
+        "idle_gc_committed_mib": 84.140625,
+        "fixed_rps": 9997.091646098317,
+        "fixed_peak_rss_mib": 606.25390625,
+        "fixed_cpu_four_core_percent": 14.133591439384455,
+        "fixed_cpu_us_per_request": 56.54999999999999,
+        "fixed_p99_ms": 29.95,
+        "heartbeat_rps": 24809.044455814743,
+        "heartbeat_peak_rss_mib": 593.53515625,
+        "heartbeat_p99_ms": 34.65,
+        "echo_rps": 21822.419733385912,
+        "echo_peak_rss_mib": 590.62109375,
+        "echo_cpu_us_per_request": 94.6562927888116,
+        "echo_p99_ms": 37.15,
+        "idle_after_traffic_rss_mib": 588.453125
+      }
+    },
+    {
+      "name": "round-2-tls",
+      "transport": "tls",
+      "values": {
+        "login_seconds": 11.7488513,
+        "login_cpu_ms_per_connection": 1.625,
+        "login_p99_ms": 86.7,
+        "idle_rss_mib": 582.25390625,
+        "idle_managed_estimate_mib": 65.47319793701172,
+        "idle_gc_committed_mib": 84.078125,
+        "fixed_rps": 9984.97156936609,
+        "fixed_peak_rss_mib": 603.31640625,
+        "fixed_cpu_four_core_percent": 14.527674395890811,
+        "fixed_cpu_us_per_request": 58.20000000000002,
+        "fixed_p99_ms": 29.9,
+        "heartbeat_rps": 21109.104603156295,
+        "heartbeat_peak_rss_mib": 590.48828125,
+        "heartbeat_p99_ms": 36.35,
+        "echo_rps": 20527.158171675947,
+        "echo_peak_rss_mib": 590.0703125,
+        "echo_cpu_us_per_request": 104.21810874785008,
+        "echo_p99_ms": 38.15,
+        "idle_after_traffic_rss_mib": 590.1484375
+      }
+    },
+    {
+      "name": "round-3-tls",
+      "transport": "tls",
+      "values": {
+        "login_seconds": 11.9743703,
+        "login_cpu_ms_per_connection": 1.845,
+        "login_p99_ms": 91.05,
+        "idle_rss_mib": 589.625,
+        "idle_managed_estimate_mib": 56.18486022949219,
+        "idle_gc_committed_mib": 89.20703125,
+        "fixed_rps": 9995.9522391003,
+        "fixed_peak_rss_mib": 608.0390625,
+        "fixed_cpu_four_core_percent": 16.081226537439015,
+        "fixed_cpu_us_per_request": 64.35000000000001,
+        "fixed_p99_ms": 31.9,
+        "heartbeat_rps": 22158.72546821705,
+        "heartbeat_peak_rss_mib": 601.62109375,
+        "heartbeat_p99_ms": 35.9,
+        "echo_rps": 21670.187342887046,
+        "echo_peak_rss_mib": 597.94140625,
+        "echo_cpu_us_per_request": 95.06062940191597,
+        "echo_p99_ms": 37,
+        "idle_after_traffic_rss_mib": 591.92578125
+      }
+    }
+  ]
+}

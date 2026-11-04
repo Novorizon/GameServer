@@ -1,0 +1,9 @@
+  Determining projects to restore...
+  Restored /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Gameplay/GameServer.Gameplay.csproj (in 1.42 sec).
+  Restored /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Protocol/GameServer.Protocol.csproj (in 10 ms).
+  Restored /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Host/GameServer.Host.csproj (in 18 ms).
+  Restored /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/tests/GameServer.UnitTests/GameServer.UnitTests.csproj (in 33 ms).
+  Restored /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/tests/GameServer.LoadTests/GameServer.LoadTests.csproj (in 8 ms).
+  Restored /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/tests/GameServer.IntegrationTests/GameServer.IntegrationTests.csproj (in 8 ms).
+  Restored /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Networking/GameServer.Networking.csproj (in 7 ms).
+  Restored /workspace/experiments/tcp-tls-comparison-20261104-132823/reference/src/GameServer.Infrastructure/GameServer.Infrastructure.csproj (in 12 ms).

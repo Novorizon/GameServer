@@ -1,0 +1,17 @@
+{"event":"phase_start","phase":"login"}
+{"event":"phase_end","phase":"login","connections":8000,"seconds":11.7844579,"p50_ms":4.55,"p99_ms":26.1,"max_ms":259.0567}
+{"event":"phase_start","phase":"warmup_heartbeat"}
+{"event":"phase_end","phase":"warmup_heartbeat","requests":32000,"seconds":1.0453641,"requests_per_second":30611.34393270249,"p50_ms":3.35,"p95_ms":14.25,"p99_ms":22.45,"max_ms":27.5795,"payload_bytes":0,"histogram_bin_ms":0.05,"target_requests_per_second":0,"fixed_total_requests":32000}
+{"event":"phase_start","phase":"warmup_echo"}
+{"event":"phase_end","phase":"warmup_echo","requests":32000,"seconds":1.1927713,"requests_per_second":26828.277977513375,"p50_ms":3.6,"p95_ms":15.3,"p99_ms":25.7,"max_ms":33.1461,"payload_bytes":1027,"histogram_bin_ms":0.05,"target_requests_per_second":0,"fixed_total_requests":32000}
+{"event":"phase_start","phase":"idle"}
+{"event":"phase_end","phase":"idle","seconds":15.0043277,"connections":8000}
+{"event":"phase_start","phase":"protobuf_1k_10k"}
+{"event":"phase_end","phase":"protobuf_1k_10k","requests":200000,"seconds":20.0088132,"requests_per_second":9995.595340957054,"p50_ms":0.5,"p95_ms":3.3,"p99_ms":22.5,"max_ms":110.2313,"payload_bytes":1027,"histogram_bin_ms":0.05,"target_requests_per_second":10000,"fixed_total_requests":200000}
+{"event":"phase_start","phase":"heartbeat"}
+{"event":"phase_end","phase":"heartbeat","requests":756923,"seconds":20.0087375,"requests_per_second":37829.62318337177,"p50_ms":2.3,"p95_ms":8.95,"p99_ms":26.5,"max_ms":164.4709,"payload_bytes":0,"histogram_bin_ms":0.05,"target_requests_per_second":0,"fixed_total_requests":0}
+{"event":"phase_start","phase":"protobuf_1k"}
+{"event":"phase_end","phase":"protobuf_1k","requests":732705,"seconds":20.0042705,"requests_per_second":36627.4291281954,"p50_ms":2.4,"p95_ms":17.05,"p99_ms":26.2,"max_ms":54.4244,"payload_bytes":1027,"histogram_bin_ms":0.05,"target_requests_per_second":0,"fixed_total_requests":0}
+{"event":"phase_start","phase":"idle_after_traffic"}
+{"event":"phase_end","phase":"idle_after_traffic","seconds":9.999084,"connections":8000}
+{"event":"complete","connections":8000,"failures":0}

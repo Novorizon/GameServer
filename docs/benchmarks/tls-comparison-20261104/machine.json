@@ -1,0 +1,17 @@
+{
+  "captured_date": "2026-11-04",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "available_logical_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "host_visible_memtotal_kib": 34906004,
+  "openssl": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)",
+  "gc_server_environment_override": null,
+  "gc_mode_basis": "console runtimeconfig does not enable server GC; gcServer environment switches absent",
+  "note": "Only server/client affinity and 3 GiB managed heap limit are set; not a true 4 GiB cgroup."
+}

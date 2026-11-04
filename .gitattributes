@@ -1,0 +1,10 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.cs text eol=lf
+*.csproj text eol=lf
+*.proto text eol=lf
+*.sql text eol=lf
+
+# Preserve historical benchmark evidence byte-for-byte, including generated SVG and patches.
+docs/benchmarks/** -text -whitespace

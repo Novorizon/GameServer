@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <DirectoryBuildPropsPath>$(MSBuildThisFileDirectory)../../src/Directory.Build.props</DirectoryBuildPropsPath>
+    <DirectoryPackagesPropsPath>$(MSBuildThisFileDirectory)../../src/Directory.Packages.props</DirectoryPackagesPropsPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../src/GameServer.Data/GameServer.Data.csproj" /></ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+</Project>
