@@ -77,7 +77,7 @@ public sealed class NotificationIntegrationTests
         using var socket = await server.ConnectAsync();
         using var transport = await ClientPacketTransport.ConnectAsync(socket.GetStream(), mode, key, timeout.Token);
         await transport.ExchangeAsync(TcpIntegrationTests.Encode((int)MessageId.Login, 1, server.Login(8061)), timeout.Token);
-        await Assert.ThrowsAsync<IOException>(() => transport.ExchangeAsync(TcpIntegrationTests.Encode(
+        await Assert.ThrowsAsync<EndOfStreamException>(() => transport.ExchangeAsync(TcpIntegrationTests.Encode(
             (int)MessageId.ServerNotice, 2, new ServerNotice { Text = "client injection" }), timeout.Token).AsTask());
         await server.AssertReleasedAsync();
     }

@@ -53,6 +53,8 @@ public sealed class PacketDispatcher
         var header = packet.Header;
         if (header.ResultCode != ResultCode.Ok)
             throw new ProtocolException("Client result code must be zero.");
+        if (header.RequestId <= 0 || PacketCodec.IsNotificationMessageId(header.MessageId))
+            throw new ProtocolException("Client requests require a positive request ID and a non-notification message ID.");
         if (!_handlers.TryGetValue(header.MessageId, out var handler))
         {
             await session.SendAsync(header, ResultCode.Unsupported, null, ct);
