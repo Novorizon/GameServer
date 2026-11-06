@@ -42,7 +42,10 @@ public static class InfrastructureRegistration
         services.AddSingleton<IFacebookBindingRepository>(sp => sp.GetRequiredService<FacebookBindingRepository>());
         services.AddSingleton<ITableRepository<FacebookBindingRow, long>>(sp => sp.GetRequiredService<FacebookBindingRepository>());
         services.AddSingleton<FilePlayerSaveStore>();
-        services.AddSingleton<IPlayerSaveStore>(sp => sp.GetRequiredService<FilePlayerSaveStore>());
+        services.AddSingleton<DatabasePlayerSaveStore>();
+        services.AddSingleton<IPlayerSaveStore>(sp => storage.Provider == PlayerSaveProvider.Database
+            ? sp.GetRequiredService<DatabasePlayerSaveStore>()
+            : sp.GetRequiredService<FilePlayerSaveStore>());
         // Tokens appear in the Graph request URI. Disable framework request URI
         // logging for this client; application logs never contain token bodies.
         services.AddHttpClient("Facebook", client => client.Timeout = TimeSpan.FromSeconds(4)).RemoveAllLoggers();

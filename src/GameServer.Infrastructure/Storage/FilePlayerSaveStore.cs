@@ -6,13 +6,16 @@ using GameServer.Protocol.Framing;
 
 namespace GameServer.Infrastructure.Storage;
 
+public enum PlayerSaveProvider { File, Database }
+
 public sealed class StorageOptions
 {
+    public PlayerSaveProvider Provider { get; set; } = PlayerSaveProvider.File;
     public string RootPath { get; set; } = "data/player-saves";
     public int MaxSaveBytes { get; set; } = 128 * 1024;
     public void Validate()
     {
-        if (string.IsNullOrWhiteSpace(RootPath) || MaxSaveBytes is < 1 or > 1024 * 1024)
+        if (!Enum.IsDefined(Provider) || string.IsNullOrWhiteSpace(RootPath) || MaxSaveBytes is < 1 or > 1024 * 1024)
             throw new InvalidOperationException("Invalid Storage configuration.");
     }
 }

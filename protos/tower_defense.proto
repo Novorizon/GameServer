@@ -1,0 +1,87 @@
+syntax = "proto3";
+package gameserver;
+option csharp_namespace = "GameServer.Protocol.Messages";
+
+// Authenticated single-player business API. Mutation replies use TdResponse.
+enum TowerDefenseMessageId {
+  TOWER_DEFENSE_UNSPECIFIED = 0;
+  TD_GET_PROFILE = 2000000101;
+  TD_START_RUN = 2000000102;
+  TD_GET_RUN = 2000000103;
+  TD_CHOOSE_CARD = 2000000104;
+  TD_BUILD_TOWER = 2000000105;
+  TD_UPGRADE_TOWER = 2000000106;
+  TD_START_WAVE = 2000000107;
+  TD_ABANDON_RUN = 2000000108;
+  TD_GET_SETTLEMENT = 2000000109;
+}
+
+message TdRequest {
+  string operation_id = 1;
+  int64 expected_version = 2;
+  string run_id = 3;
+  int32 stage_id = 4;
+  string offer_id = 5;
+  string card_id = 6;
+  int32 slot = 7;
+  string tower_id = 8;
+}
+
+message TdResponse {
+  TdProfile profile = 1;
+  TdRun run = 2;
+  TdSettlement settlement = 3;
+}
+message TdProfile {
+  int64 version = 1;
+  int64 wallet_coins = 2;
+  int32 highest_stage = 3;
+}
+enum TdRunPhase {
+  TD_RUN_PHASE_UNSPECIFIED = 0;
+  TD_CHOOSING_CARD = 1;
+  TD_PREPARATION = 2;
+  TD_WAVE_RUNNING = 3;
+  TD_COMPLETED = 4;
+}
+message TdRun {
+  string run_id = 1;
+  int32 stage_id = 2;
+  TdRunPhase phase = 3;
+  int32 wave = 4;
+  int32 gold = 5;
+  int32 base_hp = 6;
+  repeated TdTower towers = 7;
+  repeated TdCardRank cards = 8;
+  TdCardOffer offer = 9;
+  int64 wave_ends_at_unix_ms = 10;
+  TdWaveOutcome last_wave = 11;
+  int32 rules_version = 12;
+}
+message TdTower {
+  string tower_id = 1;
+  int32 slot = 2;
+  int32 level = 3;
+}
+message TdCardRank {
+  string card_id = 1;
+  int32 rank = 2;
+}
+message TdCardOffer {
+  string offer_id = 1;
+  repeated string card_ids = 2;
+}
+message TdWaveOutcome {
+  int32 wave = 1;
+  int32 defense = 2;
+  int32 threat = 3;
+  int32 damage = 4;
+  int32 gold_reward = 5;
+}
+message TdSettlement {
+  string run_id = 1;
+  bool victory = 2;
+  bool abandoned = 3;
+  int32 waves_cleared = 4;
+  int32 coins_reward = 5;
+}

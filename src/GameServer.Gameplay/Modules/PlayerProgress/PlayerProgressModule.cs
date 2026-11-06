@@ -5,11 +5,11 @@ namespace GameServer.Gameplay.Modules.PlayerProgress;
 
 public static class PlayerProgressModule
 {
-    public static IServiceCollection AddPlayerProgressModule(this IServiceCollection services)
+    public static IServiceCollection AddPlayerProgressModule(this IServiceCollection services, bool allowClientWrites = true)
     {
         services.AddSingleton<PlayerProgressService>();
         services.AddSingleton<IMessageHandler, ProgressReadHandler>();
-        services.AddSingleton<IMessageHandler, ProgressWriteHandler>();
+        if (allowClientWrites) services.AddSingleton<IMessageHandler, ProgressWriteHandler>();
         return services;
     }
 }

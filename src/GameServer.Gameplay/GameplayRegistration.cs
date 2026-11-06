@@ -7,6 +7,7 @@ using GameServer.Gameplay.Modules.Heartbeat;
 using GameServer.Gameplay.Modules.PlayerProgress;
 using GameServer.Gameplay.Modules.PlayerSave;
 using GameServer.Gameplay.Modules.Facebook;
+using GameServer.Gameplay.Modules.TowerDefense;
 using GameServer.Gameplay.Players;
 using GameServer.Gameplay.Notifications;
 using GameServer.Gameplay.Sessions;
@@ -18,7 +19,8 @@ namespace GameServer.Gameplay;
 
 public static class GameplayRegistration
 {
-    public static IServiceCollection AddGameplay(this IServiceCollection services, GameplayOptions options)
+    public static IServiceCollection AddGameplay(this IServiceCollection services, GameplayOptions options,
+        TowerDefenseOptions? towerDefense = null)
     {
         options.Validate();
         services.AddSingleton(options);
@@ -28,7 +30,10 @@ public static class GameplayRegistration
         services.AddSingleton(options.Notifications);
         services.AddSingleton<IPlayerNotifier, PlayerNotificationService>();
         services.AddSingleton<IPlayerAdministrationService, PlayerAdministrationService>();
-        services.AddAccountModule().AddHeartbeatModule().AddPlayerProgressModule().AddPlayerSaveModule().AddFacebookModule();
+        towerDefense ??= new();
+        services.AddAccountModule().AddHeartbeatModule()
+            .AddPlayerProgressModule(allowClientWrites: !towerDefense.Enabled)
+            .AddPlayerSaveModule().AddFacebookModule().AddTowerDefenseModule(towerDefense);
         services.AddSingleton<RequestAdmissionController>();
         services.AddSingleton<IHostedService>(sp => sp.GetRequiredService<RequestAdmissionController>());
         services.AddSingleton<PacketDispatcher>();

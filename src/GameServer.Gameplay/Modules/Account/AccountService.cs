@@ -17,7 +17,7 @@ public sealed class AccountService(IAccountRepository accounts, ILoginTokenVerif
         if (identity == null || identity.DeviceId != deviceId)
             throw new RequestFailureException(ResultCode.InvalidCredentials);
         AccountRecord? account = await accounts.FindByDeviceAsync(deviceId, ct);
-        if (account == null || account.PlayerId != identity.PlayerId)
+        if (account == null || account.PlayerId != identity.PlayerId || account.DeviceId != deviceId)
             throw new RequestFailureException(ResultCode.InvalidCredentials);
         ct.ThrowIfCancellationRequested();
         players.Bind(session, new(account.PlayerId, account.DeviceId));

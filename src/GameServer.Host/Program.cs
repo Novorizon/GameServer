@@ -3,6 +3,8 @@ using Microsoft.Extensions.Hosting;
 
 try
 {
+    if (AccountOperatorCommand.IsOperatorCommand(args))
+        return await AccountOperatorCommand.RunAsync(args);
     using IHost host = GameServerApplication.Build(args);
     await host.RunAsync();
     return 0;

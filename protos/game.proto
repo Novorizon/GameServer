@@ -18,8 +18,10 @@ message ProgressReadRequest {}
 message ProgressWriteRequest { int32 progress = 1; int64 expected_version = 2; }
 message ProgressResponse { int32 progress = 1; int64 version = 2; }
 message SaveReadRequest {}
-message SaveWriteRequest { bytes data = 1; }
-message SaveResponse { bytes data = 1; }
+// Database saves require both fields; expected_version=0 creates the first save.
+// The opaque payload never grants currency, progress, cards, or run rewards.
+message SaveWriteRequest { bytes data = 1; optional int64 expected_version = 2; string operation_id = 3; }
+message SaveResponse { bytes data = 1; int64 version = 2; }
 message FacebookBindRequest { string access_token = 1; string expected_user_id = 2; }
 message FacebookBindResponse { string user_id = 1; }
 message ServerNotice { string text = 1; }

@@ -10,9 +10,9 @@ public sealed class SaveReadHandler(PlayerSaveService service) : MessageHandler<
 {
     protected override async ValueTask HandleMessageAsync(GameSession session, PacketHeader header, SaveReadRequest message, CancellationToken ct)
     {
-        byte[]? data = await service.ReadAsync(session, ct);
-        if (data == null)
+        PlayerSaveSnapshot save = await service.ReadVersionedAsync(session, ct);
+        if (save.Data == null)
             throw new RequestFailureException(ResultCode.NotFound);
-        await session.SendAsync(header, ResultCode.Ok, new SaveResponse { Data = ByteString.CopyFrom(data) }, ct);
+        await session.SendAsync(header, ResultCode.Ok, new SaveResponse { Data = ByteString.CopyFrom(save.Data), Version = save.Version }, ct);
     }
 }

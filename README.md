@@ -12,6 +12,7 @@
 - 按模块注册 Handler、业务 Service、会话/玩家 Manager，提供单发、有界广播和服务端踢人接口。
 - MySQL、SQLite 共用参数化 SQL、事务和通用 CRUD；账号、进度、绑定仓储及背包/玩家设置示例齐全。
 - 从现有 MySQL/SQLite 数据表生成 Row、Repository 和保留手写代码的 partial 扩展。
+- 可选玩家业务：可信账号预置／令牌工具、数据库版本化云存档，以及服务端权威的三波塔防、三选一卡和幂等奖励结算；默认不启用塔防，按文档显式迁移后开启。
 
 游戏监听没有 HTTP 升级、WebSocket 或 TLS 握手；业务仍验证 JWT 与账号。正式账号令牌需由可信认证服务签发，本工程没有 HTTP 登录服务。预共享通信密钥与 JWT 签名密钥分开配置。
 
@@ -84,6 +85,8 @@ python3 scripts/generate-protobuf.py --output /absolute/path/client/Generated
 此前数据库版还完成过一次 8000 个 AES-GCM 连接回归：空闲 RSS 180.1 MiB，持续通信采样峰值 193.6 MiB。本次仓库迁移未重新进行大连接数压测；历史实验结果不代表完整正式游戏业务的容量。复现工具为 `scripts/run-benchmark.py`，需要 Linux 和至少 5 个可用逻辑 CPU。
 
 - [模块、推送与管理服务](docs/modules.md)
+- [玩家登录、云存档与塔防业务接入](docs/player-business.md)
+- [账号引导与版本化存档协议](docs/player-login-and-saves.md)
 - [数据库开发与表模板](docs/database.md)
 - [从数据表生成代码](docs/schema-generation.md)
 - [Protobuf 配置与导出](docs/protobuf.md)
